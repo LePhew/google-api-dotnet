@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>google_api_dotnet</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Google.Apis.Storage.V1" Version="1.57.0.2685" />
+    <PackageReference Include="Google.Cloud.Compute.V1" Version="1.4.0" />
+    <PackageReference Include="Google.Cloud.Container.V1" Version="2.7.0" />
+    <PackageReference Include="Google.Cloud.ResourceManager.V3" Version="1.2.0" />
+    <PackageReference Include="Google.Cloud.Storage.V1" Version="3.7.0" />
+    <PackageReference Include="Google.Cloud.VpcAccess.V1" Version="1.1.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="6.0.1" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+  </ItemGroup>
+
+</Project>
